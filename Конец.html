@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборщик ПК</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div class="head">
+        <h1 class="z1">Конструктор ПК для работы с видео и стриминга.</h1>
+        <h2 class="intro">Выполнил Карачёв Максим из группы 2ИП-4-24</h2>
+    </div>
+    <div class="sit">
+        <p class="text">Итак, мы сегодня разобрали самые основные "Запчасти", необохдимые для того чтобы заняться стримингом.</p>
+        <p class="text1">
+            Надеюсь тебе помогла эта презентация.
+            Если хочешь - можешь вернуться к началу и просмотреть всё с начала.
+        </p>
+    </div>
+    
+    <button class="button" id = "startButton"><a class="href" href="Слайд_1.html">К началу?</a></button>
+
+    <script>
+        // Получаем кнопку
+        const button = document.getElementById('startButton');
+        
+        // Добавляем обработчик события при наведении мыши
+        button.addEventListener('mouseenter', function() {
+            this.style.boxShadow = '0 0 40px #00ffd5';
+        });
+        
+        // Добавляем обработчик события при уходе мыши
+        button.addEventListener('mouseleave', function() {
+            this.style.boxShadow = 'none';
+        });
+    </script>
+</body>
+</html> 

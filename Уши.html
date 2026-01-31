@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборщик ПК</title>
+    <link rel="stylesheet" href="Микро.css">
+</head>
+<body>
+    <div class="head">
+        <h1 class="z1">Конструктор ПК для работы с видео и стриминга.</h1>
+        <h2 class="intro">Выполнил Карачёв Максим из группы 2ИП-4-24</h2>
+    </div>
+    <div class="sit">
+        <p class="text">Так,.......звук мы обсудили. А что там по картинке? Если собираешься стримить с камерой то вот тебе 3 неплохих варианта.</p>
+    </div>
+
+    <div class="BT">
+        <Button class="button" id="button1">
+            <a class="href" href="https://www.dns-shop.ru/product/ce12527e7b5ced20/veb-kamera-logitech-streamcam-full-hd/"><b>Logitech StreamCam</b></a>
+            <a class="href" href="https://www.dns-shop.ru/product/ce12527e7b5ced20/veb-kamera-logitech-streamcam-full-hd/"><img src="streamcam.png" class="X1"></a>
+            <a class="href" href="https://www.dns-shop.ru/product/ce12527e7b5ced20/veb-kamera-logitech-streamcam-full-hd/"><p class="href">10.999 рублей</p></a>
+        </Button>
+        <Button class="button2" id="button2">
+            <a class="href" href="https://www.ozon.ru/product/kamera-dlya-striminga-elgato-facecam-pro-3108680641/?at=A6tGADNlLc0JQyLOh7pEjNBFLyvzmqFPBx63VCrq7Rkm"><b>Elgato FaceCam Pro</b></a>
+            <a class="href" href="https://www.ozon.ru/product/kamera-dlya-striminga-elgato-facecam-pro-3108680641/?at=A6tGADNlLc0JQyLOh7pEjNBFLyvzmqFPBx63VCrq7Rkm"><img src="elgatocam.png" class="X1"></a>
+            <a class="href" href="https://www.ozon.ru/product/kamera-dlya-striminga-elgato-facecam-pro-3108680641/?at=A6tGADNlLc0JQyLOh7pEjNBFLyvzmqFPBx63VCrq7Rkm"><p class="href">88.800 рублей</p></a>
+        </Button>
+        <Button class="button3" id="button3">
+            <a class="href" href="https://www.dns-shop.ru/product/f692628420e9ed20/mikrofon-rode-nt-usb-mini-cernyj/"><b></b></a>
+            <a class="href" href="https://www.dns-shop.ru/product/f692628420e9ed20/mikrofon-rode-nt-usb-mini-cernyj/"><img src="" class="X1"></a>
+            <a class="href" href="https://www.dns-shop.ru/product/f692628420e9ed20/mikrofon-rode-nt-usb-mini-cernyj/"><p class="href">14.799 рублей</p></a>
+        </Button>
+        <Button class="button4" id="button4">
+            <a class="href" href="ПО.html"><b>На этом всё?</b></a>
+        </Button>
+    </div>
+
+    <script>
+        // Функция для добавления эффекта подсветки при наведении
+        function addHoverEffect(buttonId) {
+            const button = document.getElementById(buttonId);
+            if (button) {
+                button.addEventListener('mouseenter', function() {
+                    this.style.boxShadow = '0 0 30px #00ffd5';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.boxShadow = 'none';
+                });
+            }
+        }
+        
+        // Добавляем эффект ко всем кнопкам
+        addHoverEffect('button1');
+        addHoverEffect('button2');
+        addHoverEffect('button3');
+        addHoverEffect('button4');
+    </script>
+</body>
+</html>

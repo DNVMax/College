@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборщик ПК</title>
+    <link rel="stylesheet" href="Микро.css">
+</head>
+<body>
+    <div class="head">
+        <h1 class="z1">Конструктор ПК для работы с видео и стриминга.</h1>
+        <h2 class="intro">Выполнил Карачёв Максим из группы 2ИП-4-24</h2>
+    </div>
+    <div class="sit">
+        <p class="text">Итак, самое важное - ты будешь общаться с аудиторией. Значит, тебе нужен хороший бюджетный <b>микрофон</b>. Я подобрал для тебя парочку интересных вариантов.</p>
+    </div>
+
+    <div class="BT">
+        <Button class="button" id="button1">
+            <a class="href" href="https://www.dns-shop.ru/product/301391ef034eed20/mikrofon-hyperx-solocast-cernyj/"><b>HyperX SoloCast</b></a>
+            <a class="href" href="https://www.dns-shop.ru/product/301391ef034eed20/mikrofon-hyperx-solocast-cernyj/"><img src="solocast.png" class="X1"></a>
+            <a class="href" href="https://www.dns-shop.ru/product/301391ef034eed20/mikrofon-hyperx-solocast-cernyj/"><p class="href">5.999 рублей</p></a>
+        </Button>
+        <Button class="button" id="button2">
+            <a class="href" href="https://www.ozon.ru/product/mikrofon-razer-seiren-v2-x-1730808898/?at=Eqtk5vZK7hpALrEwIGO5j3KfkYkR6Wf3ZpvZ7CXj3j4z"><b>Razer Seiren V2 X</b></a>
+            <a class="href" href="https://www.ozon.ru/product/mikrofon-razer-seiren-v2-x-1730808898/?at=Eqtk5vZK7hpALrEwIGO5j3KfkYkR6Wf3ZpvZ7CXj3j4z"><img src="siren.png" class="X1"></a>
+            <a class="href" href="https://www.ozon.ru/product/mikrofon-razer-seiren-v2-x-1730808898/?at=Eqtk5vZK7hpALrEwIGO5j3KfkYkR6Wf3ZpvZ7CXj3j4z"><p class="href">8.999 рублей</p></a>
+        </Button>
+        <Button class="button" id="button3">
+            <a class="href" href="https://www.dns-shop.ru/product/f692628420e9ed20/mikrofon-rode-nt-usb-mini-cernyj/"><b>RODE NT-USB MINI</b></a>
+            <a class="href" href="https://www.dns-shop.ru/product/f692628420e9ed20/mikrofon-rode-nt-usb-mini-cernyj/"><img src="rode.png" class="X1"></a>
+            <a class="href" href="https://www.dns-shop.ru/product/f692628420e9ed20/mikrofon-rode-nt-usb-mini-cernyj/"><p class="href">14.799 рублей</p></a>
+        </Button>
+        <Button class="button4" id="button4">
+            <a class="href" href="Уши.html"><b>Что дальше?</b></a>
+        </Button>
+    </div>
+
+    <script>
+        // Функция для добавления эффекта подсветки при наведении
+        function addHoverEffect(buttonId) {
+            const button = document.getElementById(buttonId);
+            if (button) {
+                button.addEventListener('mouseenter', function() {
+                    this.style.boxShadow = '0 0 30px #00ffd5';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.boxShadow = 'none';
+                });
+            }
+        }
+        
+        // Добавляем эффект ко всем кнопкам
+        addHoverEffect('button1');
+        addHoverEffect('button2');
+        addHoverEffect('button3');
+        addHoverEffect('button4');
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap');
+
+body{
+    font-family: WDXL Lubrifont TC, sans-serif;
+    background-color: rgb(8, 8, 37);
+}
+
+.h{
+    color: rgb(39, 72, 223);
+    text-shadow: 0 0 8px #196a99;
+    margin-bottom: 100px;
+    padding-left: 15%;
+}
+
+.info{
+    width: 900px;
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: 200px;
+}
+
+.txt{
+    margin-top: -60px;
+    width: 750px;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.text1{
+    margin-top: -15px;
+}
+
+.tt{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+} 
+
+.img{
+    width: 500px;
+    height: 500px;
+    margin-left: 60%;
+    margin-top: -17%;
+}
+
+.pp{
+    width: 850px;
+    height: 350px;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.h2{
+    color: rgb(39, 72, 223);
+    text-shadow: 0 0 8px #196a99;
+    margin-top: -12%;
+    margin-left: 39%;
+    font-size: 40px;
+}

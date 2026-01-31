@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap');
+
+body {
+    font-family: WDXL Lubrifont TC, sans-serif;
+    background-color: rgb(8, 8, 37);
+    margin: 0;
+    padding: 0;
+    overflow-x: auto; /* Разрешаем горизонтальный скролл если нужно */
+}
+
+.intro {
+    color: rgb(18, 18, 146);
+    margin-top: -15px;
+}
+
+.head {
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(39, 72, 223);
+    text-shadow: 0 0 8px #196a99;
+}
+
+.sit {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -220px;
+    max-width: 850px;
+    width: 90%;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: justify;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.text1 {
+    margin-top: -15px;
+}
+
+/* Общие стили для всех кнопок */
+.button, .button2, .button3{
+    font-size: 25px;
+    border-radius: 35px;
+    border: none;
+    background-color: #006dec;
+    box-shadow: none; /* Убрана постоянная подсветка */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 15px;
+    flex: 0 1 calc(25% - 40px);
+    max-width: 280px;
+    min-width: 220px;
+    height: 350px;
+    margin: 10px;
+    transition: box-shadow 0.3s ease; /* Добавлен плавный переход */
+}
+
+.X1 {
+    width: 120px;
+    padding-top: 15px;
+}
+
+.href {
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 0;
+    display: block;
+    font-size: 22px;
+}
+
+.href {
+    margin-top: 15px;
+}
+
+.BT {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 1400px;
+    width: 95%;
+    height: 400px;
+    margin: 0px auto;
+    gap: 40px;
+    overflow-x: auto;
+}
+
+.button4{
+    font-size: 25px;
+    border-radius: 35px;
+    border: none;
+    background-color: #006dec;
+    box-shadow: none; /* Убрана постоянная подсветка */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 15px;
+    flex: 0 1 calc(25% - 40px);
+    max-width: 140px;
+    min-width: 220px;
+    height: 100px;
+    margin: 10px;
+    transition: box-shadow 0.3s ease; /* Добавлен плавный переход */
+}

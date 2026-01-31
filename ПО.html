@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборщик ПК</title>
+    <link rel="stylesheet" href="ПО.css">
+</head>
+<body>
+    <div class="head">
+        <h1 class="z1">Конструктор ПК для работы с видео и стриминга.</h1>
+        <h2 class="intro">Выполнил Карачёв Максим из группы 2ИП-4-24</h2>
+    </div>
+    <div class="sit">
+        <p class="text">Ну вроде звук и картинку обсудили, давай разберёмся с системой через которую ты будешь стримить! Есть <b>2</b> классических варианта:</p>
+    </div>
+
+    <div class="BT">
+        <Button class="button" id="button1">
+            <a class="href" href="OBS.html"><img src="OBS.png" class="X1"></a>
+            <a class="href" href="OBS.html"><b>OBS Studio</b></a>
+            <a class="href" href="OBS.html"><p class="p">Широкий функционал, возможность записи и стриминга, поддержка расширений. Бесплатно</p></a>
+        </Button>
+        <Button class="button" id="button2">
+            <a class="href" href="https://www.ozon.ru/product/mikrofon-razer-seiren-v2-x-1730808898/?at=Eqtk5vZK7hpALrEwIGO5j3KfkYkR6Wf3ZpvZ7CXj3j4z"><img src="broad.png" class="X1"></a>
+            <a class="href" href="https://www.ozon.ru/product/mikrofon-razer-seiren-v2-x-1730808898/?at=Eqtk5vZK7hpALrEwIGO5j3KfkYkR6Wf3ZpvZ7CXj3j4z"><b>X Split BroadCast</b></a>
+            <a class="href" href="https://www.ozon.ru/product/mikrofon-razer-seiren-v2-x-1730808898/?at=Eqtk5vZK7hpALrEwIGO5j3KfkYkR6Wf3ZpvZ7CXj3j4z"><p class="p">Связь с другими продуктами X Split, поддержка расширений. Есть подписка с доп.функциями</p></a>
+        </Button>
+        <Button class="button4" id="button4">
+            <a class="href" href="Конец.html"><b>Конец?</b></a>
+        </Button>
+    </div>
+
+    <script>
+        // Функция для добавления эффекта подсветки при наведении
+        function addHoverEffect(buttonId) {
+            const button = document.getElementById(buttonId);
+            if (button) {
+                button.addEventListener('mouseenter', function() {
+                    this.style.boxShadow = '0 0 30px #00ffd5';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.boxShadow = 'none';
+                });
+            }
+        }
+        
+        // Добавляем эффект ко всем кнопкам
+        addHoverEffect('button1');
+        addHoverEffect('button2');
+        addHoverEffect('button4');
+    </script>
+</body>
+</html>
